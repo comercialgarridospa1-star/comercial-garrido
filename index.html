@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Comercial Garrido SPA | Paltas, Quesos y Cecinas</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #080808;
+      color: white;
+    }
+
+    header {
+      background: #000;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #c99b32;
+    }
+
+    header h1 {
+      color: #d4af37;
+      font-size: 32px;
+    }
+
+    header p {
+      margin-top: 8px;
+      color: #ddd;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #d4af37;
+    }
+
+    .principal {
+      min-height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(#111, #000);
+    }
+
+    .principal h2 {
+      color: #d4af37;
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .principal p {
+      font-size: 20px;
+      max-width: 700px;
+      line-height: 1.5;
+    }
+
+    .productos {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .productos h2 {
+      color: #d4af37;
+      font-size: 34px;
+      margin-bottom: 40px;
+    }
+
+    .contenedor {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+    }
+
+    .producto {
+      background: #151515;
+      border: 1px solid #d4af37;
+      border-radius: 15px;
+      width: 260px;
+      padding: 30px 20px;
+    }
+
+    .producto .emoji {
+      font-size: 65px;
+    }
+
+    .producto h3 {
+      color: #d4af37;
+      margin: 15px 0;
+      font-size: 25px;
+    }
+
+    .whatsapp {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 30px;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 30px;
+    }
+
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 30px 15px;
+      border-top: 1px solid #d4af37;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>COMERCIAL GARRIDO SPA</h1>
+    <p>Calidad • Frescura • Sabor</p>
+
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#productos">Productos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="principal" id="inicio">
+    <h2>Bienvenidos a Comercial Garrido</h2>
+
+    <p>
+      Productos seleccionados para tu mesa.
+      Paltas, quesos y cecinas con la calidad
+      y frescura que buscas.
+    </p>
+
+    <a class="whatsapp" href="#">
+      🟢 Hacer un pedido por WhatsApp
+    </a>
+  </section>
+
+  <section class="productos" id="productos">
+
+    <h2>Nuestros Productos</h2>
+
+    <div class="contenedor">
+
+      <div class="producto">
+        <div class="emoji">🥑</div>
+        <h3>Paltas</h3>
+        <p>Paltas frescas y seleccionadas.</p>
+      </div>
+
+      <div class="producto">
+        <div class="emoji">🧀</div>
+        <h3>Quesos</h3>
+        <p>Variedad de quesos para todos los gustos.</p>
+      </div>
+
+      <div class="producto">
+        <div class="emoji">🥩</div>
+        <h3>Cecinas</h3>
+        <p>Sabrosas cecinas seleccionadas.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer id="contacto">
+    <h3>COMERCIAL GARRIDO SPA</h3>
+    <br>
+    <p>Paltas • Quesos • Cecinas</p>
+    <br>
+    <p>© 2026 Comercial Garrido SPA</p>
+  </footer>
+
+</body>
+</html>
